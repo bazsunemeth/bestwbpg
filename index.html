@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gyors Hozzáférés</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 250px;
+      height: 150px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Elérhetőségek</h1>
+  <div class="container">
+    <a class="card" href="https://docs.google.com/forms/d/e/1FAIpQLSeIstar2QF-nVQPNSlf3mhIcoMwB8XW4nTIwpm5MYz1jG3_Gg/viewform?usp=header" target="_blank">
+      GoTools igénylés
+    </a>
+    <a class="card" href="https://docs.google.com/forms/d/e/1FAIpQLSeJqCwvDzRYxHUNnnFNYuNf_2pOqyOdJC-dyOZ1bUItWnLdhw/viewform?usp=header" target="_blank">
+      Alango hozzáférés
+    </a>
+    <a class="card" href="https://docs.google.com/forms/d/e/1FAIpQLSe9cyjsXEvknaRCH2w_-7u78XOq2aFwaB6L9AM4CBXxjhVr1w/viewform?usp=header" target="_blank">
+      Werkzeug elérés
+    </a>
+  </div>
+</body>
+</html>
